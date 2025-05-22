@@ -1,0 +1,183 @@
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Spotify - Web Player: Music for everyone</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="utility.css">
+    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+</head>
+
+<body>
+
+    <div class="nav1 flex bg-black">
+        <nav class="flex">
+            <div class="start flex align-center">
+                <img class="invert logo" src="/content/svgs/logo.svg" alt="">
+                <img class="invert home" src="/content/svgs/home.svg" alt="">
+                <img class="invert search" src="/content/svgs/search.svg" alt="">
+                <img class="invert hamburger" src="/content/svgs/hamburger.svg" alt="">
+                <img class="invert cross" src="/content/svgs/cross.svg" alt="">
+            </div>
+            <div class="end flex align-center">
+                <span class="flex align-center justify-center">
+                    <button class="expPrem flex align-center">Explore Premium</button>
+                    <a href="https://www.spotify.com/in-en/premium/" target="_blank"><img class="prem invert"
+                            src="/content/svgs/premium.svg" alt=""></a>
+                    <span class="installApp flex align-center">
+                        <svg class="invert" data-encore-id="icon" role="img" aria-hidden="true" viewBox="0 0 16 16">
+                            <path
+                                d="M4.995 8.745a.75.75 0 0 1 1.06 0L7.25 9.939V4a.75.75 0 0 1 1.5 0v5.94l1.195-1.195a.75.75 0 1 1 1.06 1.06L8 12.811l-.528-.528a.945.945 0 0 1-.005-.005L4.995 9.805a.75.75 0 0 1 0-1.06z">
+                            </path>
+                            <path d="M0 8a8 8 0 1 1 16 0A8 8 0 0 1 0 8zm8-6.5a6.5 6.5 0 1 0 0 13 6.5 6.5 0 0 0 0-13z">
+                            </path>
+                        </svg>
+                        <button class="instApp rounded flex align-center p-1">Install App</button></span>
+                    <a href="https://accounts.spotify.com/en-GB/login"><img class="log invert"
+                            src="/content/svgs/login.svg" alt=""></a>
+                    <a href="https://accounts.spotify.com/en-GB/login"><button
+                            class="login rounded flex align-center p-1">Login</button></a>
+                </span>
+            </div>
+        </nav>
+    </div>
+
+
+    <div class="container flex bg-black">
+        <div class="left p-2 rounded m-1 bg-gray">
+            <div class="library">
+                <div class="yourLib_header">
+                    <div class="libHeaderEdit flex align-center">
+                        <span>Your Library</span>
+                        <button><img class="invert" src="/content/svgs/plus.svg" alt=""></button>
+                    </div>
+                    <div class="yourLib_buttons flex">
+                        <button class="bg-light-gray">Playlists</button>
+                        <button class="bg-light-gray">Artists</button>
+                    </div>
+                </div>
+                <div class="yourLib_content">
+                    <nav class="yourLib_buttons flex">
+                        <img class="invert" src="/content/svgs/search.svg" alt=""><span
+                            class="recents flex align-center">Recents
+                            <img class="invert" src="/content/svgs/recents.svg" alt=""></span>
+                    </nav>
+                    <div class="songsList">
+                        <ul>
+
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="right rounded m-1 p-1 bg-gray">
+
+            <div class="nav2   m-1 p-1 flex">
+                <button class="bg-light-gray">All</button>
+                <button class="bg-light-gray">Music</button>
+                <button class="bg-light-gray">Podcast</button>
+            </div>
+
+            <div class="main ">
+                <div class="spotifyPlaylists">
+                    <h2>Spotify Playlists</h2>
+                    <div class="cardContainer flex">
+                        <div class="card  rounded flex justify-center align-center p-1 m-2">
+                            <img src="https://i.scdn.co/image/ab67616d00001e02707ea5b8023ac77d31756ed4" alt="">
+                            <!-- <h2>Happy Hits!</h2> -->
+                            <p>Hits to Boost your mood and fill you with happiness!</p>
+                        </div>
+                        <div class="card  rounded flex justify-center align-center p-1 m-2">
+                            <img src="https://i.scdn.co/image/ab67706f00000002d2c23cff8e4056e5c891216d" alt="">
+                            <!-- <h2>Happy Hits!</h2> -->
+                            <p>Hits to Boost your mood and fill you with happiness!</p>
+                        </div>
+                        <div class="card  rounded flex justify-center align-center p-1 m-2">
+                            <img src="https://i.scdn.co/image/ab67706f000000021c85876e7d9b8633ec32a8b9" alt="">
+                            <!-- <h2>Happy Hits!</h2> -->
+                            <p>Hits to Boost your mood and fill you with happiness!</p>
+                        </div>
+
+                    </div>
+                </div>
+                <div class="main_footer">
+
+                    <div class="table flex m-1 p-1">
+                        <div class="company flex">
+                            <span class="table_headings">Company</span>
+                            <span><a href="https://www.lifeatspotify.com/">Jobs</a></span>
+                            <span><a href="https://newsroom.spotify.com/"> For the Record</a></span>
+                        </div>
+                        <div class="communities flex">
+                            <span class="table_headings">Communities</span>
+                            <span><a href="https://artists.spotify.com/home">For Artists</a></span>
+                            <span><a href="https://developer.spotify.com/">Developers</a></span>
+                            <span><a href="https://ads.spotify.com/en-IN/">Advertising</a></span>
+                            <span><a href="https://investors.spotify.com/">Investors</a></span>
+                            <span><a href="https://developer.spotify.com/">Vendors</a></span>
+                        </div>
+                        <div class="useful flex">
+                            <span class="table_headings">Useful links</span>
+                            <span><a href="https://support.spotify.com/in-en/">Support</a></span>
+                            <span><a href="https://www.spotify.com/in-en/download/windows/">Free Mobile App</a></span>
+                        </div>
+                        <div class="plans flex">
+                            <span class="table_headings">Spotify Plans</span>
+                            <span><a
+                                    href="https://www.spotify.com/in-en/premium/#ref=spotifycom_footer_premium_individual">Premium
+                                    Individual</a></span>
+                            <span><a href="https://www.spotify.com/in-en/duo/#ref=spotifycom_footer_premium_duo/">Premium
+                                    Duo</a></span>
+                            <span><a href="https://www.spotify.com/in-en/family/#ref=spotifycom_footer_premium_family">Premium
+                                    Family</a></span>
+                            <span><a
+                                    href="https://www.spotify.com/in-en/student/#ref=spotifycom_footer_premium_student">Premium
+                                    Student</a></span>
+                            <span><a href="https://www.spotify.com/in-en/free/#ref=spotifycom_footer_free">Spotify
+                                    Free</a></span>
+                        </div>
+                        <div class="social flex">
+                            <a href="https://instagram.com/spotify"><img src="/content/svgs/instagram.svg"
+                                    class="invert" id="ig_logo" alt=""></a>
+                            <a href="https://instagram.com/spotify"><img src="/content/svgs/x.svg" class="invert"
+                                    id="x_logo" alt=""></a>
+                            <a href="https://instagram.com/spotify"><img src="/content/svgs/fb.svg" class="invert"
+                                    id="fb_logo" alt=""></a>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+    <div class="footer flex bg-black">
+        <footer class="flex align-center  m-1 rounded bg-gray">
+            <div class="songInfo">
+
+            </div>
+            <div class="mid flex align-center justify-center">
+                <div class="player flex align-center">
+                    <img id="previous" class="invert" src="/content/svgs/previous.svg" alt="">
+                    <img id="play" class="invert" src="/content/svgs/play.svg" alt="">
+                    <img id="next" class="invert" src="/content/svgs/next.svg" alt="">
+                </div>
+                <div class="seekOut">
+                    <span class="timeStart"></span>
+                    <span class="timeEnd"></span>
+                    <div class="seekbar">
+                        <div class="circle"></div>
+                    </div>
+                </div>
+            </div>
+            <div class="songTime flex">
+
+            </div>
+        </footer>
+    </div>
+    <script src="script.js"></script>
+</body>
+
+</html>
